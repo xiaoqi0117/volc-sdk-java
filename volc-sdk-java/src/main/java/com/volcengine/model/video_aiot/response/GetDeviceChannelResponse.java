@@ -36,6 +36,8 @@ public class GetDeviceChannelResponse {
     public static class DeviceItem {
         @JSONField(name = "DeviceID")
         private String deviceID;
+        @JSONField(name = "Name")
+        private String name;
         @JSONField(name = "Event")
         private String event;
         @JSONField(name = "Manufacturer")
